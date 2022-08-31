@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#machine{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    background-color: cadetblue;
+    border-radius: 2px;
+    visibility: hidden;
+}
+
+#block1{
+    width: 30px;
+    height: 35px;
+    background-color: black;
+    position: absolute;
+    border-radius: 15px;
+    animation: block 2s infinite linear;
+}
+
+#block2{
+    width: 30px;
+    height: 35px;
+    background-color: black;
+    position: absolute;
+    border-radius: 15px;
+    animation: block 3s infinite linear;
+    left: 5%;
+}
+
+#block3{
+    width: 30px;
+    height: 35px;
+    background-color: black;
+    position: absolute;
+    border-radius: 15px;
+    animation: block 4s infinite linear;
+    left: 15%;
+}
+
+#block4{
+    width: 30px;
+    height: 35px;
+    background-color: black;
+    position: absolute;
+    border-radius: 15px;
+    animation: block 5s infinite linear;
+    left: 20%;
+}
+
+#block5{
+    width: 30px;
+    height: 35px;
+    background-color: black;
+    position: absolute;
+    border-radius: 15px;
+    animation: block 6s infinite linear;
+    left: 27%;
+}
+
+#heart{
+    color: crimson;
+    position: absolute;
+    left: 25%;
+    top: 0%;
+}
+
+#text{
+    color: black;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+#timer{
+    color: none;
+    position: absolute;
+    left: 60%;
+    top: 0%;
+    animation: block 0.01s infinite linear;
+}
+
+@keyframes block {
+    0%{top: 450px}
+    100%{top: -100px}
+}
