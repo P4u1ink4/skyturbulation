@@ -101,5 +101,7 @@ window.addEventListener('keydown', (event) => {
             machine.style.visibility = "visible";
             text.style.visibility = "hidden";
             break;
+        default:
+            break;
        }
 });
