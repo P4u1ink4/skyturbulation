@@ -15,7 +15,6 @@
 #machine{
     width: 20px;
     height: 30px;
-    position: absolute;
     background-color: cadetblue;
     border-radius: 2px;
     visibility: hidden;
