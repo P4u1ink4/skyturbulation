@@ -25,7 +25,7 @@
     background-color: rgb(148, 148, 148);
     position: absolute;
     border-radius: 15px;
-    animation: block 2s infinite linear;
+    animation: block 1s infinite linear;
 }
 
 #block2{
@@ -34,7 +34,7 @@
     background-color: rgb(148, 148, 148);
     position: absolute;
     border-radius: 15px;
-    animation: block 3s infinite linear;
+    animation: block 2s infinite linear;
     left: 5%;
 }
 
@@ -44,7 +44,7 @@
     background-color: rgb(148, 148, 148);
     position: absolute;
     border-radius: 15px;
-    animation: block 4s infinite linear;
+    animation: block 3s infinite linear;
     left: 15%;
 }
 
@@ -54,7 +54,7 @@
     background-color: rgb(148, 148, 148);
     position: absolute;
     border-radius: 15px;
-    animation: block 5s infinite linear;
+    animation: block 4s infinite linear;
     left: 20%;
 }
 
@@ -64,7 +64,7 @@
     background-color: rgb(148, 148, 148);
     position: absolute;
     border-radius: 15px;
-    animation: block 6s infinite linear;
+    animation: block 5s infinite linear;
     left: 27%;
 }
 
